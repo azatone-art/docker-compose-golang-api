@@ -101,13 +101,13 @@ http://localhost:8081
 
 Example response:
 
+```json
 [
   {
     "message": "Hello world",
     "postgres_version": "PostgreSQL 16"
   }
 ]
-```
 
 ## Networking
 
