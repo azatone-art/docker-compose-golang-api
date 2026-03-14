@@ -23,7 +23,6 @@ Request flow:
 
 Client → Nginx → Golang API → PostgreSQL
 
-
 ```mermaid
 flowchart TD
 
@@ -61,6 +60,10 @@ end
 * Reverse proxy with Nginx
 * Persistent PostgreSQL storage using Docker volumes
 * Network isolation between services
+
+## Docker image
+
+docker pull azatone/simple-golang-api:v2
 
 ## Running the project
 

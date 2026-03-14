@@ -15,7 +15,7 @@ services:
       - app
 
   app:
-    image: simple-golang-api:v2
+    image: azatone/simple-golang-api:v2
     build: ./simple-golang-api
     environment:
       API_DB_HOST: db
