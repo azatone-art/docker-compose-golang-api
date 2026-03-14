@@ -64,7 +64,9 @@ end
 ## Docker image
 
 Docker image is available on Docker Hub:
+```
 docker pull azatone/simple-golang-api:v2
+```
 
 ## Running the project
 
@@ -96,6 +98,7 @@ The application will be available at:
 
 ```
 http://localhost:8081
+```
 
 ## API response
 
@@ -108,6 +111,7 @@ Example response:
     "postgres_version": "PostgreSQL 16"
   }
 ]
+```
 
 ## Networking
 
